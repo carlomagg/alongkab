@@ -11,7 +11,7 @@ class Drivers(models.Model):
 
 
     phone_number = models.CharField(max_length=40, default=None)
-    address = models.CharField(max_length=25, default=None)
+    address = models.CharField(max_length=60, default=None)
     license = models.CharField(max_length=30, default=None)
     
 
